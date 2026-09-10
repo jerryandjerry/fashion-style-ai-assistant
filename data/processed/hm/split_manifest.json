@@ -1,0 +1,22 @@
+{
+  "rule": "stratified on age_band x budget_tier; most-dates users within each cell; one purchase from each user's last date is the test case, the rest of that date is discarded",
+  "source": "data\\processed\\hm\\full\\interactions.csv",
+  "source_rows": 31788324,
+  "source_users": 1362281,
+  "n_users_requested": 10000,
+  "n_users_selected": 10000,
+  "strata": [
+    "age_band",
+    "budget_tier"
+  ],
+  "cohort_dates_min": 8,
+  "cohort_dates_median": 62.0,
+  "cohort_dates_max": 427,
+  "cohort_purchases_median": 191.0,
+  "train_rows": 2208989,
+  "test_rows": 10000,
+  "test_cases": 10000,
+  "last_date_rows_discarded": 19212,
+  "users_no_train_history": 0,
+  "generated_at": "2026-08-10T18:14:34-05:00"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "baseline",
+  "version": "1.0",
+  "dataset": "hm|top_k=5|cases=all",
+  "metrics": {
+    "users_evaluated": 10000.0,
+    "recall_at_k": 0.0097,
+    "precision_at_k": 0.0019399999999999999,
+    "map_at_k": 0.00471,
+    "ndcg_at_k": 0.00593892788058254,
+    "inventory_hit_rate": 1.0,
+    "category_diversity": 1.1551
+  }
+}

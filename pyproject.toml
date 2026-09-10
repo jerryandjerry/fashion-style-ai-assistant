@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fashion-style-ai-assistant"
+version = "0.1.0"
+description = "fashion style AI assistant with retrieval, ranking, RAG explanations, and business metrics."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Jerry"}]
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "scikit-learn>=1.2",
+    "PyYAML>=6.0",
+    "lightgbm>=4.7.0",
+    "implicit>=0.7.3",
+    "catboost>=1.2.10",
+    "gensim>=4.4.0",
+    "nodevectors>=0.1.23",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.4",
+]
+app = [
+    "streamlit>=1.30",
+]
+api = [
+    "fastapi>=0.110",
+    "uvicorn>=0.27",
+]
+
+[project.scripts]
+fashion-assistant = "fashion_style_ai_assistant.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fashion_style_ai_assistant"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "scripts"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+src = ["src", "tests", "scripts"]

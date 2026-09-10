@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "baseline",
+    "version": "1.0",
+    "run_at": "2026-08-10T21:43:26-05:00",
+    "dataset": "hm|top_k=5|cases=all",
+    "users_evaluated": 10000,
+    "recall_at_k": 0.0097,
+    "precision_at_k": 0.00194,
+    "map_at_k": 0.00471,
+    "ndcg_at_k": 0.005939,
+    "inventory_hit_rate": 1.0,
+    "category_diversity": 1.1551
+  },
+  {
+    "id": 2,
+    "name": "behavioural",
+    "version": "1.0",
+    "run_at": "2026-08-10T23:01:47-05:00",
+    "dataset": "hm|top_k=5|cases=all",
+    "users_evaluated": 10000,
+    "recall_at_k": 0.2763,
+    "precision_at_k": 0.05526,
+    "map_at_k": 0.156485,
+    "ndcg_at_k": 0.18606,
+    "inventory_hit_rate": 0.99116,
+    "category_diversity": 1.1321
+  },
+  {
+    "id": 4,
+    "name": "behavioural",
+    "version": "2.0",
+    "run_at": "2026-08-12T02:36:36-05:00",
+    "dataset": "hm|top_k=5|cases=all",
+    "users_evaluated": 10000,
+    "recall_at_k": 0.3216,
+    "precision_at_k": 0.06432,
+    "map_at_k": 0.195822,
+    "ndcg_at_k": 0.226995,
+    "inventory_hit_rate": 0.98934,
+    "category_diversity": 1.1253
+  }
+]

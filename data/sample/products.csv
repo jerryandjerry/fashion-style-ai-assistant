@@ -1,0 +1,21 @@
+product_id,name,category,color,style_tags,occasion_tags,season,price,description,brand,material,gender,image_url
+p001,Linen Relaxed Shirt,shirt,ivory,"minimal,casual,coastal","beach,weekend,travel",summer,72,Breathable ivory linen shirt with a relaxed fit for warm weather layering.,Nami Basics,linen,women,image://p001
+p002,Wide Leg Linen Pants,pants,sand,"minimal,casual,coastal","beach,weekend,travel",summer,88,Sand wide-leg pants in a breathable linen blend; easy to pair with light tops.,Nami Basics,linen blend,women,image://p002
+p003,Raffia Crossbody Bag,bag,tan,"boho,coastal,casual","beach,weekend,travel",summer,55,"Lightweight raffia bag sized for phone, sunscreen, and wallet.",Atelier Coast,raffia,women,image://p003
+p004,Black Structured Blazer,jacket,black,"classic,formal,workwear","office,interview,dinner",all-season,140,Tailored black blazer with clean lines for interviews and office outfits.,Civic Studio,poly-viscose,women,image://p004
+p005,White Poplin Button Down,shirt,white,"classic,formal,minimal","office,interview,conference",spring,65,Crisp white poplin shirt that works under blazers or tucked into trousers.,Civic Studio,cotton poplin,women,image://p005
+p006,Charcoal Straight Trousers,pants,charcoal,"classic,formal,workwear","office,interview,conference",all-season,95,Straight-leg charcoal trousers with a polished drape.,Civic Studio,wool blend,women,image://p006
+p007,Slip Midi Dress,dress,sage,"romantic,minimal,evening","date,dinner,wedding_guest",spring,118,Sage satin midi dress with adjustable straps and soft movement.,Luna Form,satin,women,image://p007
+p008,Cream Knit Cardigan,cardigan,cream,"cozy,minimal,casual","office,travel,weekend",autumn,82,Soft cream cardigan for layering over dresses or tees.,Cloud Loom,cotton knit,women,image://p008
+p009,Blue Denim Jacket,jacket,blue,"casual,street,weekend","travel,weekend,concert",spring,78,Classic blue denim jacket with slightly cropped shape.,Rivet Lane,denim,women,image://p009
+p010,Black Ankle Boots,shoes,black,"classic,street,workwear","office,dinner,travel",autumn,120,Low-heel black ankle boots for city walking and polished outfits.,North Step,leather,women,image://p010
+p011,Running Performance Tee,shirt,coral,"sporty,active","gym,running,travel",summer,38,Lightweight sweat-wicking tee for runs and workouts.,PulseKit,polyester,women,image://p011
+p012,High Rise Training Leggings,pants,black,"sporty,active,minimal","gym,running,travel",all-season,64,Supportive black training leggings with side pocket.,PulseKit,nylon spandex,women,image://p012
+p013,Red Wrap Dress,dress,red,"romantic,statement,evening","date,dinner,wedding_guest",summer,96,Red wrap dress with defined waist and breezy short sleeves.,Luna Form,viscose,women,image://p013
+p014,Navy Trench Coat,coat,navy,"classic,formal,travel","office,travel,rain",autumn,155,Water-resistant navy trench coat with removable belt.,Civic Studio,cotton twill,women,image://p014
+p015,Beige Cashmere Scarf,scarf,beige,"classic,cozy,minimal","travel,office,weekend",winter,70,Soft beige scarf that adds warmth without overwhelming the outfit.,Cloud Loom,cashmere blend,women,image://p015
+p016,Silver Hoop Earrings,accessory,silver,"minimal,evening,classic","date,dinner,office",all-season,42,Small silver hoops that work for day-to-night outfits.,Atelier Coast,sterling silver,women,image://p016
+p017,Olive Utility Jacket,jacket,olive,"casual,street,travel","weekend,travel,concert",autumn,102,Olive utility jacket with roomy pockets for casual layering.,Rivet Lane,cotton canvas,women,image://p017
+p018,Pleated Midi Skirt,skirt,cream,"romantic,classic,workwear","office,date,dinner",spring,84,Cream pleated midi skirt that pairs with knits or button-down shirts.,Luna Form,polyester,women,image://p018
+p019,Canvas White Sneakers,shoes,white,"casual,minimal,travel","beach,travel,weekend",summer,58,Comfortable white canvas sneakers for long walks and relaxed outfits.,North Step,canvas,women,image://p019
+p020,Silk Black Camisole,top,black,"evening,minimal,classic","date,dinner,party",all-season,76,Black silk camisole for layering under blazers or evening looks.,Luna Form,silk,women,image://p020

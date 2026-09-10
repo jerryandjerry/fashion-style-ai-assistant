@@ -1,0 +1,14 @@
+{
+  "name": "behavioural",
+  "version": "2.0",
+  "dataset": "hm|top_k=5|cases=all",
+  "metrics": {
+    "users_evaluated": 10000.0,
+    "recall_at_k": 0.3216,
+    "precision_at_k": 0.06432,
+    "map_at_k": 0.19582166666666667,
+    "ndcg_at_k": 0.22699479759164032,
+    "inventory_hit_rate": 0.9893400000000001,
+    "category_diversity": 1.1253
+  }
+}

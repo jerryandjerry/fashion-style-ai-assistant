@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+.env
+
+# Data: keep sample data, ignore downloaded/processed large files by default
+/data/external/**
+/data/processed/**
+!/data/external/.gitkeep
+!/data/processed/.gitkeep
+# Data is ignored; the code and manifests that produce it are not.
+!/data/external/**/
+!/data/processed/**/
+!/data/**/*.py
+!/data/**/*_manifest.json
+
+# Generated artifacts
+*.pkl
+*.joblib
+/models/baseline/user_profiles.csv
+*.parquet
+*.db
+.DS_Store
+
+# Local notes
+/docs/**
+
+# External reference code (e.g. Kaggle winning solutions) -- not part of this project
+/reference/
+
+# Editor
+.vscode/
+
+# Local training/serving outputs and machine-specific files
+/catboost_info/
+/models/behavioural/serve_*/
+/models/behavioural/v1.0_backup/
+/artifacts/board_*old-protocol/
+autodl.env
+AutoDL_UserManual.md

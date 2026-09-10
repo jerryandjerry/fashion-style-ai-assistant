@@ -1,0 +1,5 @@
+user_id,age_band,preferred_style,budget_tier,gender
+u001,25-34,"minimal,coastal,casual",mid,women
+u002,35-44,"classic,formal,workwear",premium,women
+u003,18-24,"street,casual,sporty",low,women
+u004,25-34,"romantic,evening,classic",mid,women

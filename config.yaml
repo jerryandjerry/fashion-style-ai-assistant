@@ -1,0 +1,22 @@
+data_dir: data/sample
+default_top_k: 5
+candidate_k: 30
+
+retrieval:
+  method: tfidf
+  max_features: 5000
+
+evaluation:
+  # null scores every case in test/ -- the test set is already one case per cohort user
+  sample_users: null
+  sample_seed: 42
+
+ranking:
+  retrieval_weight: 0.45
+  intent_match_weight: 0.15
+  preference_weight: 0.15
+  price_weight: 0.10
+  inventory_weight: 0.08
+  margin_weight: 0.04
+  return_weight: 0.03
+  out_of_stock_penalty: 0.35

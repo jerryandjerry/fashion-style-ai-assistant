@@ -1,0 +1,20 @@
+<!doctype html><html lang=en><head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Recommendation leaderboard</title><style>
+:root{color-scheme:light dark;--bg:#fbfbfa;--card:#fff;--ink:#111;--mut:#777;--line:#e3e3dd;--lead:#2a78d6}
+@media(prefers-color-scheme:dark){:root{--bg:#141413;--card:#1e1e1c;--ink:#f2f2ef;--mut:#9a988f;--line:#333;--lead:#4c8fe0}}
+body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:var(--bg);color:var(--ink);margin:0;padding:36px 20px 64px}
+.wrap{max-width:960px;margin:0 auto}h1{font-size:21px;margin:0 0 4px}
+.meta{color:var(--mut);font-size:13px;margin:0 0 22px}.meta code{background:var(--card);border:1px solid var(--line);border-radius:5px;padding:1px 6px}
+table{border-collapse:collapse;width:100%;font-size:13px;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mut);padding:10px;border-bottom:1px solid var(--line)}
+td{padding:9px 10px;border-bottom:1px solid var(--line)}tr:last-child td{border-bottom:0}
+.num{text-align:right;font-variant-numeric:tabular-nums}.mono{font-family:ui-monospace,Menlo,monospace;font-size:11px;color:var(--mut)}
+tr.lead td{font-weight:650}tr.lead td:first-child{box-shadow:inset 3px 0 0 var(--lead)}
+</style></head><body><div class=wrap>
+<h1>Recommendation leaderboard</h1>
+<p class=meta><code>hm|top_k=5|cases=all</code> · 4 run(s) · ranked by recall</p>
+<table><thead><tr><th>#</th><th>name</th><th>ver</th><th class=num>recall</th><th class=num>prec</th>
+<th class=num>MAP</th><th class=num>NDCG</th><th class=num>in-stock</th><th class=num>diversity</th>
+<th class=num>users</th><th>run at</th></tr></thead><tbody><tr class=lead><td>1</td><td>behavioural</td><td>2.0</td><td class=num>0.3216</td><td class=num>0.0643</td><td class=num>0.1958</td><td class=num>0.2270</td><td class=num>0.9893</td><td class=num>1.13</td><td class=num>10000</td><td class=mono>2026-08-12T02:36:36-05:00</td></tr><tr><td>2</td><td>behavioural</td><td>1.0</td><td class=num>0.2763</td><td class=num>0.0553</td><td class=num>0.1565</td><td class=num>0.1861</td><td class=num>0.9912</td><td class=num>1.13</td><td class=num>10000</td><td class=mono>2026-08-10T23:01:47-05:00</td></tr><tr><td>3</td><td>baseline</td><td>1.0</td><td class=num>0.0097</td><td class=num>0.0019</td><td class=num>0.0047</td><td class=num>0.0059</td><td class=num>1.0000</td><td class=num>1.16</td><td class=num>10000</td><td class=mono>2026-08-10T21:43:26-05:00</td></tr></tbody></table>
+</div></body></html>

@@ -1,0 +1,6 @@
+outfit_id,product_ids,occasion_tags,description,compatibility_score
+o001,p001|p002|p003|p019,"beach,weekend",coastal neutral weekend look,0.93
+o002,p004|p005|p006|p010,"interview,office",classic interview outfit,0.91
+o003,p007|p016|p010,"date,dinner",soft evening look,0.86
+o004,p011|p012|p019,"gym,running",active travel set,0.88
+o005,p008|p018|p015|p010,"office,autumn",cozy workwear layering,0.84
